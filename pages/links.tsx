@@ -54,6 +54,7 @@ export default function Links() {
         <div className="mt-3 flex flex-row items-center justify-center">
           <Image
             src="/logo.png"
+            alt="Logo"
             width={imgSize}
             height={imgSize}
             className="rounded-full"
