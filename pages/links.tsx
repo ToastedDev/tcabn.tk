@@ -9,6 +9,7 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 import React from "react";
+import Page from "components/Page";
 
 interface BackstoryOpts {
   title: string;
@@ -49,63 +50,65 @@ export default function Links() {
   const imgSize = 85;
   return (
     <>
-      <div className="mt-3 flex flex-row items-center justify-center">
-        <Image
-          src="/logo.png"
-          width={imgSize}
-          height={imgSize}
-          className="rounded-full"
-        />
-        <h1 className="font-bold text-6xl ml-2">TCA</h1>
-      </div>
-      <div className="mt-2 flex flex-col items-center">
-        <Backstory
-          title="Founder @"
-          company={{
-            name: "Graphify",
-            link: "https://youtube.com/c/GraphifyStats",
-          }}
-        />
-        <Backstory
-          title="Creator of"
-          company={{
-            name: "create-djs-app",
-            link: "https://create-djs-app.js.org",
-          }}
-        />
-      </div>
-      <div className="flex flex-col items-center">
-        <Social
-          name="YouTube"
-          icon={<FaYoutube className="inline" />}
-          href="https://youtube.com/channel/UCYmgF3XHt5Mwo2_k9SSDv7Q"
-        />
-        <Social
-          name="Twitter"
-          icon={<FaTwitter className="inline" />}
-          href="https://twitter.com/TCAbutnot"
-        />
-        <Social
-          name="GitHub"
-          icon={<FaGithub className="inline" />}
-          href="https://github.com/NotTCA"
-        />
-        <Social
-          name="Discord"
-          icon={<FaDiscord className="inline mb-1" />}
-          href="https://discord.gg/Cwm6ctmvxF"
-        />
-        <Social
-          name="Twitch"
-          icon={<FaTwitch className="inline" />}
-          href="https://twitch.tv/NotTCA"
-        />
-        <Social
-          name="Website"
-          icon={<FaGlobe className="inline" />}
-          href="https://tcabn.tk"
-        />
-      </div>
+      <Page title="Links">
+        <div className="mt-3 flex flex-row items-center justify-center">
+          <Image
+            src="/logo.png"
+            width={imgSize}
+            height={imgSize}
+            className="rounded-full"
+          />
+          <h1 className="font-bold text-6xl ml-2">TCA</h1>
+        </div>
+        <div className="mt-2 flex flex-col items-center">
+          <Backstory
+            title="Founder @"
+            company={{
+              name: "Graphify",
+              link: "https://youtube.com/c/GraphifyStats",
+            }}
+          />
+          <Backstory
+            title="Creator of"
+            company={{
+              name: "create-djs-app",
+              link: "https://create-djs-app.js.org",
+            }}
+          />
+        </div>
+        <div className="flex flex-col items-center">
+          <Social
+            name="YouTube"
+            icon={<FaYoutube className="inline" />}
+            href="https://youtube.com/channel/UCYmgF3XHt5Mwo2_k9SSDv7Q"
+          />
+          <Social
+            name="Twitter"
+            icon={<FaTwitter className="inline" />}
+            href="https://twitter.com/TCAbutnot"
+          />
+          <Social
+            name="GitHub"
+            icon={<FaGithub className="inline" />}
+            href="https://github.com/NotTCA"
+          />
+          <Social
+            name="Discord"
+            icon={<FaDiscord className="inline mb-1" />}
+            href="https://discord.gg/Cwm6ctmvxF"
+          />
+          <Social
+            name="Twitch"
+            icon={<FaTwitch className="inline" />}
+            href="https://twitch.tv/NotTCA"
+          />
+          <Social
+            name="Website"
+            icon={<FaGlobe className="inline" />}
+            href="https://tcabn.tk"
+          />
+        </div>
+      </Page>
     </>
   );
 }
