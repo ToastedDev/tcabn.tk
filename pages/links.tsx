@@ -106,7 +106,7 @@ export default function Links() {
           <Social
             name="Website"
             icon={<FaGlobe className="inline" />}
-            href="https://tcabn.tk"
+            href="/"
           />
         </div>
       </Page>
