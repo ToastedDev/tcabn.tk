@@ -40,10 +40,10 @@ export default function Home() {
           About
         </h3>
         <p className="mt-2 max-w-2xl">
-          Ever since I was 10 years old, I've wanted to program. Now I'm{" "}
-          {Math.abs(new Date().getUTCFullYear() - 2009)} years old, and I would
-          say I'm proficient in front-end development. I'm also a content
-          creator, making{" "}
+          Ever since I was 10 years old, I&apos;ve wanted to program. Now
+          I&apos;m {Math.abs(new Date().getUTCFullYear() - 2009)} years old, and
+          I would say I'm proficient in front-end development. I&apos;m also a
+          content creator, making{" "}
           <Link href="/graphify">
             <a className="hover:underline">statistics videos on YouTube</a>
           </Link>
