@@ -35,6 +35,28 @@ export default function Home() {
           </Link>
         </p>
       </div>
+      <div className="flex flex-col justify-center items-center text-center h-screen">
+        <h3 className="underline decoration-4 underline-offset-[6px] font-bold text-2xl">
+          About
+        </h3>
+        <p className="mt-2 max-w-2xl">
+          Ever since I was 10 years old, I've wanted to program. Now I'm{" "}
+          {Math.abs(new Date().getUTCFullYear() - 2009)} years old, and I would
+          say I'm proficient in front-end development. I'm also a content
+          creator, making{" "}
+          <Link href="/graphify">
+            <a className="hover:underline">statistics videos on YouTube</a>
+          </Link>
+          , and{" "}
+          <Link href="https://twitch.tv/NotTCA">
+            <a className="hover:underline">livestreaming on Twitch.</a>
+          </Link>{" "}
+          I also run a{" "}
+          <Link href="/discord">
+            <a className="hover:underline">really great Discord community.</a>
+          </Link>
+        </p>
+      </div>
     </Page>
   );
 }
