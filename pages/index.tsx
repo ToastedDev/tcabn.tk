@@ -42,8 +42,8 @@ export default function Home() {
         <p className="mt-2 max-w-2xl">
           Ever since I was 10 years old, I&apos;ve wanted to program. Now
           I&apos;m {Math.abs(new Date().getUTCFullYear() - 2009)} years old, and
-          I would say I'm proficient in front-end development. I&apos;m also a
-          content creator, making{" "}
+          I would say I&apos;m proficient in front-end development. I&apos;m
+          also a content creator, making{" "}
           <Link href="/graphify">
             <a className="hover:underline">statistics videos on YouTube</a>
           </Link>
