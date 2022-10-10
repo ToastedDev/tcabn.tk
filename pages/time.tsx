@@ -45,6 +45,9 @@ export default function NotFound() {
         </h3>
         <p className="mt-2">{timeDiff}</p>
       </div>
+      <div className="fixed left-0 bottom-0 p-4 text-sm text-right">
+        <p>Updated every second.</p>
+      </div>
     </Page>
   );
 }
