@@ -75,7 +75,7 @@ export default function Home() {
           </Link>
           <br />
           <Link href="https://github.com/NotTCA/tcabn.tk">
-            <a className="hover:underline">This website's GitHub</a>
+            <a className="hover:underline">This website&apos;s GitHub</a>
           </Link>
         </p>
       </div>
