@@ -57,6 +57,28 @@ export default function Home() {
           </Link>
         </p>
       </div>
+      <div className="flex flex-col justify-center items-center text-center h-screen">
+        <h3 className="underline decoration-4 underline-offset-[6px] font-bold text-2xl">
+          Other
+        </h3>
+        <p className="mt-2 text-md">
+          <Link href="/links">
+            <a className="hover:underline">My links</a>
+          </Link>
+          <br />
+          <Link href="/graphify">
+            <a className="hover:underline">Graphify (my stats channel)</a>
+          </Link>
+          <br />
+          <Link href="https://create-djs-app.js.org">
+            <a className="hover:underline">create-djs-app</a>
+          </Link>
+          <br />
+          <Link href="https://github.com/NotTCA/tcabn.tk">
+            <a className="hover:underline">This website's GitHub</a>
+          </Link>
+        </p>
+      </div>
     </Page>
   );
 }
